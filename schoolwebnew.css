@@ -1,0 +1,390 @@
+
+body {
+    font-size: 14px;
+    color: #505050;
+    font-family: 'Roboto Condensed', sans-serif;
+    vertical-align: baseline;
+    line-height: 26px;
+    font-weight: 400;
+    overflow-x: hidden;
+    margin:0px;
+    padding: 0px;
+}
+
+/*-----header----*/
+
+.section1{
+	background-color: black;
+}
+.section1 .school-logo{
+	color: #ff3115;
+}
+.section1 .apply-btn{
+	margin-left: 20px;
+}
+
+.section1 .fa{
+	margin-right: 25px;
+	font-size: 18px;
+}
+
+.section1 .fa:hover{
+	color: #ff3115;
+}
+
+.section1 .col-md-6{
+	padding: 5px 20px;
+
+}
+
+.section1 span{
+	color: white;
+}
+
+.section1 .apply-btn{
+	border: 1px solid #ff3115;
+	padding: 5px 10px;
+	color: white;
+	text-decoration:none;
+}
+.section2 i{
+	font-size: 30px;
+	color: #ff3115;
+	margin-right: 10px;
+}
+.section2 span{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.section2 p{
+	font-size: 15px;
+}
+
+.section2 a h3{
+	color: #ff3115;
+	text-decoration:none;
+	font-size: 35px;
+
+}
+
+#section3 li a{
+	color: #fff9;
+	font-weight: bold;
+}
+
+#section3 .dropdown-menu {
+	width: 250px;
+	text-align:left;
+
+}
+
+#section3 .dropdown-menu  a{
+	color: #fff9;
+	background-color:#000000;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#section3 .dropdown-menu  a:hover{
+	color: #ff3115;
+}
+
+#section3 .nav-item:hover .dropdown-menu{
+    display: block;
+    background-color: #000000;
+    transition: all 1s linear;  
+}
+
+/*------after banner box---*/
+
+  .rs-services-style1 .services-item {
+    background-color: #212121;
+    padding: 25px 17px 17px;
+    box-shadow: 0 4px 2px 2px #000000;
+    z-index: 111;
+    position: relative;
+    top: -30px;
+    transition: all 0.3s ease 0s;
+}
+
+.rs-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.rs-services-style1 .services-item {
+    background-color: #212121;
+    padding: 25px 17px 17px;
+    box-shadow: 0 4px 2px -2px #000000;
+    z-index: 111;
+    position: relative;
+    top: -0px;
+    transition: all 0.3s ease 0s;
+}
+
+.rs-animation-hover:hover{
+    
+    color: #ff3115;
+}
+
+.rs-services-style1 .services-icon {
+    height: 130px;
+    width: 130px;
+    background-color: #212121;
+    line-height: 88px;
+    text-align: center;
+    position: absolute;
+    top: -50px;
+    z-index: -1;
+    font-size: 40px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #ff3115;
+    transition: all 0.3s ease 0s;
+}
+
+
+.rs-services-style1 .services-desc {
+    text-align: center;
+    margin-top: 6px;
+
+
+}
+
+
+.rs-services-style1 .services-desc .services-title {
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 7px;
+    z-index: 10;
+}
+
+.rs-col
+    {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+}
+
+
+
+
+.navbar-nav a{
+    font-family: 
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 200px;
+
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-nav{
+    text-align: center;
+
+}
+
+.nav-link{
+    padding: .2rem 1rem;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff3115; !important;
+}
+
+.dropdown-item:hover{
+    color:#ff3115;
+}
+
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+
+.about-section .about-front hr{
+    border: 1px solid #ff3115;
+    border-radius: 50px;
+    width: 100px;
+    margin:0px;
+}
+
+.about-section .row .about-front #about-para{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;    
+}
+
+.about-section .row .about-img img{
+    border-radius: 2%;
+   box-shadow: 0 15px 25px rgba(3,3,4,0.8);
+   cursor: pointer;
+   overflow-x: hidden;
+   margin-top: 50px;
+
+}
+
+
+
+
+/*popular cources-----*/
+
+.popular-cources{
+    background-color: #f9f9f9;
+}
+
+.popular-cources .row .col-md-4 .box:hover {
+ background-color: #ff3115;
+margin-top: 50px;
+cursor: pointer;
+transition: background-color 2s ease-out;;
+}
+
+.popular-cources .row .box hr{
+    border: 1px solid #ff3115;
+    border-radius: 50px;
+    width: 100px;
+    margin:0px;
+}
+
+
+.latest-dlt .box1 hr{
+    border: 1px solid #ff3115;
+    border-radius: 50px;
+    width: 100px;
+    margin:0px;
+}
+.popular-cources .row .col-md-4 .box .mypara{
+    opacity: 0;
+}
+
+.popular-cources .row .col-md-4 .box .mypara.animated{
+    opacity: 1;
+}
+
+.about-section .row .about-front, .aboutpara, .aboutpara71, .aboutpara72 .aboutimg, .school-manag, 
+.Curriculum1, .Curriculum2, .Curriculum3, .Curriculum4, .management1, .school-logo-footer  {
+    opacity: 0;
+
+}
+
+.about-section .row .about-front, .aboutpara.animated,  .aboutpara71.animated, .aboutpara72.animated .aboutimg.animated, 
+.school-manag.animated, .Curriculum1.animated, .Curriculum2.animated, 
+.Curriculum3.animated, .Curriculum4.animated, .management1.animated, .school-logo-footer.animated{
+    opacity: 1;
+}
+
+
+
+#section9{
+	background-color: #f9f9f9;
+}
+
+#section9 .col-md-12 hr{
+    border: 1px solid #ff3115;
+    border-radius: 50px;
+    width: 100px;
+    margin-left:20px;
+
+}
+#section10 .col-md-12 .fa{
+    font-size: 10px;
+    margin-right: 3px;
+    color: #cd3435;
+}
+
+#section11, #section12{
+	background-color: #000000;
+	color: #fff9;
+}
+
+#section11 .col-md-4 .fa{
+	color: red;
+	font-size: 35px;
+}
+
+#section11 .col-md-4 span{
+	font-size: 20px;
+
+}
+
+#section11 p{
+	margin-top: 20px;
+}
+
+
+#section11 .col-md-4 h5{
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+#section11 .col-md-4 marquee div p{
+	margin: 30px 20px;
+
+}
+
+#section11 ul{
+	margin:20px 10px;
+}
+
+#section11 ul li{
+	line-height: 40px;
+}
+
+#section11 hr{
+    border: 1px solid #ff3115; 
+    border-radius: 50px;
+    width: 100px;
+    margin-left:20px;
+
+}
+
+#section11 .footer-social .col-md-12 .fa{
+	margin:20px 10px;
+	font-size: 25px;
+	color: #fff9;
+}
+
+#section11 .footer-social .col-md-12 .fa:hover{
+	
+	color: #ff3115;
+}
+#section12 a{
+	text-decoration: none;
+
+}
+#section12 a:hover{
+	color:#ff3115;
+}
+
+
+
